@@ -19,8 +19,9 @@ A simple expense tracker built with React.js that allows users to add, view, and
 
 ## 🛠 Tech Stack  
 - **React.js** (Functional Components & Hooks)  
-- **Tailwind CSS / Bootstrap** (Styling)  
-- **Yup / Zod** (Form validation)  
+- **Tailwind CSS * (Styling)  
+- **Zod (Form validation)
+- **Shadcn UI  
 - **LocalStorage** (For data persistence)  
 
 ---
