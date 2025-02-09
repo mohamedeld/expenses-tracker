@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# 💰 Expense Tracker App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple expense tracker built with React.js that allows users to add, view, and delete expenses easily.  
 
-Currently, two official plugins are available:
+## 🚀 Features  
+✅ Add an expense (name, amount, and category)  
+✅ View a list of expenses with the total amount displayed  
+✅ Delete an expense from the list  
+✅ Basic form validation using **Yup/Zod**  
+✅ Responsive design using **Tailwind CSS/Bootstrap**  
+✅ Expenses stored in local state  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔥 Bonus Features  
+⭐ Data persistence using **localStorage**  
+⭐ Category filtering for easier expense tracking  
+⭐ State management with **Redux/Zustand/Context API**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠 Tech Stack  
+- **React.js** (Functional Components & Hooks)  
+- **Tailwind CSS / Bootstrap** (Styling)  
+- **Yup / Zod** (Form validation)  
+- **LocalStorage** (For data persistence)  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 📦 Installation & Setup  
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Follow these steps to run the app locally:  
+
+### 1️⃣ Clone the repository  
+```sh
+git clone https://github.com/mohamedeld/expenses-tracker.git
+2️⃣ Navigate to the project folder
+  cd expenses-tracker
+3️⃣ Install dependencies
+  npm install
+4️⃣ Start the development server
+  npm start
+
